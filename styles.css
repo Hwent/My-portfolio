@@ -3,18 +3,32 @@
     justify-content: flex-end;
     position: fixed;
     width: 95%;
-    
   }
-  
-  .avatar{
+
+  .avatar {
     vertical-align: middle;
     width: 100px;
     height: 100px;
     border-radius: 50%;
   }
-  
+
   @media (max-width: 600px) {
     #navbar {
       justify-content: center;
     }
+  }
+
+  section {
+    /* Add your CSS properties here */
+    margin-top: 50px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    /* Your additional CSS properties */
+    color: #333;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  ul {
+    list-style-type: none; /* Remove the dot from list elements */
   }
